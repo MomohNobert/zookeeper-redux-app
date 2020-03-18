@@ -7,7 +7,8 @@ const INITIAL_STATE =  {
         {species: 'fish', name: 'klaus', gender: 'f', age: 23},
         {species: 'cat', name: 'cho', gender: 'm', age: 6},
     ],
-    selectedAnimal: []
+    selectedAnimal: [],
+    fetchedAnimals : null
 }
 
 const animalReducer = (state = INITIAL_STATE, action ) => {
@@ -18,6 +19,12 @@ const animalReducer = (state = INITIAL_STATE, action ) => {
                 selectedAnimal: state.animals.filter(
                     animal => animal.name === action.payload.name
                 )
+            }
+
+        case AnimalActionTypes.FETCH_ANIMALS:
+            return {
+                ...state,
+                fetchedAnimals: action.payload 
             }
 
 

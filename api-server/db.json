@@ -1,0 +1,39 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "species": "ape",
+      "name": "hans",
+      "gender": "m",
+      "age": 23
+    },
+    {
+      "id": 2,
+      "species": "snake",
+      "name": "banner",
+      "gender": "m",
+      "age": 33
+    },
+    {
+      "id": 3,
+      "species": "fish",
+      "name": "klaus",
+      "gender": "f",
+      "age": 23
+    },
+    {
+      "id": 4,
+      "species": "cat",
+      "name": "cho",
+      "gender": "m",
+      "age": 6
+    },
+    {
+      "id": 5,
+      "species": "rattus",
+      "name": "fern",
+      "gender": "m",
+      "age": 9
+    }
+  ]
+}

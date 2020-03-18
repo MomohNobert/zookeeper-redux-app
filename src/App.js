@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import AnimalList from './pages/animal-list/animal-list.component';
+import AnimalList from './components/animal-list/animal-list.component';
+import AnimalDetail from './components/animal-detail/animal-detail.component';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </div>
       <div>
         <h2>More Details?</h2>
+        <AnimalDetail />
       </div>
     </div>
   );
